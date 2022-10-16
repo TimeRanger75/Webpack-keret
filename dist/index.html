@@ -3,12 +3,64 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Webpack Keret</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
 </head>
 <body>
-    <p>This is a template</p>    
-    <script src='main.js'></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <label>Url: </label>
+                <input type="text" id="url">
+            </div>
+            <div class="col-lg-3">
+                <label>Szöveg mérete: </label>
+                <input type="number" id="fontSize" min="5">
+            </div>
+            <div class="col-lg-3">
+                <label>Sorköz: </label>
+                <input type="number" id="lineHeight" min="1">
+            </div>
+            <div class="col-lg-3">
+                <label>Szöveg színe: </label>
+                <input type="color" id="fontColor">
+            </div>                       
+        </div>    
+        <div class="col-lg-12 imgFloating">
+            <button id="button" >Kép igazítása</button>
+        </div>
+    </div>   
+
+    <div class="container">
+        <div class="col-lg-12">
+            <div id="div">
+                <img id="img" src="https://vegabox.hu/wp-content/uploads/2020/01/apples-poland-red-jonaprince-1-e1643214217535.jpg" alt="Kép"> 
+            </div>
+            
+        </div>
+            <div class="col-lg-12">
+                <p id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rutrum, tellus nec porttitor faucibus, dolor erat pellentesque arcu, fermentum consequat mauris ex efficitur dui. Aliquam malesuada massa quam, eget congue risus pretium eu. Morbi viverra, ipsum at dapibus convallis, felis nisi maximus mauris, suscipit volutpat velit est eget quam. Nullam imperdiet, lacus a ullamcorper porta, ligula velit rhoncus dolor, nec porta sapien lacus non orci. Nulla et lectus sed tortor tristique ornare. Nam faucibus scelerisque tortor, mattis porta est tempor eget. Nunc lorem massa, fringilla eu egestas sit amet, vulputate a lacus. Phasellus ullamcorper metus et augue tempus, quis suscipit quam dignissim. Cras id imperdiet nisl.
+
+                    Proin nisl sapien, sagittis a molestie sit amet, blandit vel dui. Sed efficitur ligula id enim egestas tempus. Donec scelerisque tortor quis lectus laoreet pellentesque. Mauris iaculis, ligula nec viverra sollicitudin, leo neque commodo nulla, id tempor nisl sem vel velit. Sed sagittis at dui at efficitur. Nunc tristique velit non mauris fermentum, a mollis urna vestibulum. Duis vel quam eget velit commodo cursus. Nam volutpat, arcu a malesuada volutpat, erat turpis rhoncus tellus, ut sollicitudin nunc metus eu nisl. Nulla vitae tellus condimentum, convallis tortor sit amet, tempor ligula. Nunc molestie, purus eu finibus placerat, mauris tortor vehicula dolor, in rutrum nibh nulla id arcu. Nunc risus neque, congue sed neque interdum, pellentesque lobortis velit. Aliquam erat volutpat.
+                    
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis mauris vitae nunc vehicula pulvinar. Aenean pellentesque feugiat lobortis. Nam ac sodales velit, in tempor ex. Morbi vel dui in nibh dapibus vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque egestas, libero id gravida maximus, nisl lorem tempor diam, eget sodales dui justo quis nibh. Praesent quis neque mollis, aliquam lorem vel, dignissim mi. Nunc id fermentum leo. Etiam felis purus, dignissim vitae metus eu, vehicula vestibulum neque. Sed risus augue, imperdiet ac cursus nec, tempor non metus.
+                    
+                    Sed et gravida mi, tincidunt gravida nulla. Aenean pretium luctus leo, non porta lorem consequat vitae. Sed et massa hendrerit, porta sapien at, lacinia risus. Nullam vehicula sit amet nunc in egestas. Donec accumsan metus a tortor luctus consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque sagittis nibh at neque mattis, sit amet suscipit quam aliquam. Donec at malesuada augue. Curabitur porttitor lobortis ante. Integer convallis, augue at pretium venenatis, dolor metus luctus tortor, ut interdum lorem erat vel ligula. Proin at euismod lectus, vitae finibus nunc.
+                    
+                    Ut sagittis tincidunt ultricies. Mauris consequat, urna in ullamcorper finibus, lacus metus aliquet ipsum, sit amet pellentesque nisi purus vel velit. Fusce porta arcu ipsum, sit amet convallis velit vulputate non. Suspendisse sagittis ultricies vehicula. Fusce ut metus viverra, egestas urna et, vulputate massa. Quisque cursus est quis eros pretium, non tincidunt ante iaculis. Proin aliquam leo sit amet erat pellentesque vulputate. Etiam elementum tincidunt dolor et iaculis. Nulla facilisi. Sed tellus orci, ornare vehicula magna quis, tincidunt efficitur risus. Cras venenatis tortor at magna mollis, sit amet pulvinar elit feugiat. Nulla ultrices ornare convallis. Donec nunc nisl, rhoncus vel turpis quis, dignissim efficitur turpis. Phasellus augue nisl, scelerisque pharetra vestibulum at, feugiat sed nisl. Nunc imperdiet arcu ut luctus vehicula. Mauris neque enim, scelerisque sit amet porta sed, commodo nec ligula.</p>  
+            </div> 
+        
+           
+    </div>
+
+    <div class="container">
+        <footer>
+            <h3>Várszegi Ádám</h3>
+            <p>2/14S</p>
+        </footer>
+    </div>
+   
+    <script src='main.js' defer></script>
 </body>
 </html>

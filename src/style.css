@@ -1,0 +1,28 @@
+#img{
+    float: left;
+    width: 25rem;
+}
+
+.img-float{
+    float: right;
+}
+
+#text{
+    text-align: justify;
+}
+
+.imgFloating{
+   text-align: center;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+
+
+
+footer{
+    text-align: center;
+}
+
+div{
+    margin-top: 2em;
+}
